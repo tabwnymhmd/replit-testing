@@ -42,7 +42,7 @@ def run () :
         remove('chart.png')
         return chart
 
-    web.run(app)
+    web.run(app,port=5000)
 
 def ticker_data (ticker):
 
